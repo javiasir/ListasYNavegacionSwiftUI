@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43505A6C2395EC9B007B9AC6 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43505A6B2395EC9B007B9AC6 /* LandmarkRow.swift */; };
+		43505A6E2395F045007B9AC6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43505A6D2395F045007B9AC6 /* LandmarkList.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* LandmarkDetail.swift */; };
@@ -34,7 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43505A6B2395EC9B007B9AC6 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = Landmarks/LandmarkRow.swift; sourceTree = "<group>"; };
+		43505A6B2395EC9B007B9AC6 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		43505A6D2395F045007B9AC6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		53DB578053DB56B000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		53F6E8A053F6E3C000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +98,6 @@
 		B7394859229F194000C47603 = {
 			isa = PBXGroup;
 			children = (
-				43505A6B2395EC9B007B9AC6 /* LandmarkRow.swift */,
 				C4E4AAA0C4E4035000000001 /* README.md */,
 				B7394864229F194000C47603 /* Landmarks */,
 				B7394863229F194000C47603 /* Products */,
@@ -118,6 +119,8 @@
 			children = (
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
+				43505A6D2395F045007B9AC6 /* LandmarkList.swift */,
+				43505A6B2395EC9B007B9AC6 /* LandmarkRow.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
 				B7394869229F194000C47603 /* LandmarkDetail.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
@@ -264,6 +267,7 @@
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B739487C229F1B6800C47603 /* MapView.swift in Sources */,
+				43505A6E2395F045007B9AC6 /* LandmarkList.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */,
 				43505A6C2395EC9B007B9AC6 /* LandmarkRow.swift in Sources */,
