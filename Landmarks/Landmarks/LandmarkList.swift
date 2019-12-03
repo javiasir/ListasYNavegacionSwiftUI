@@ -14,12 +14,16 @@ struct LandmarkList: View {
             LandmarkRow(landmark: landmark)
         }*/
         // Al poner en Landmark.swift el protocolo "Identifiable", podemos simplificar el código a esto, ya que identifica el id como una propiedad:
+        NavigationView { // Incluimos dinámicamente la lista generado en el navigationview
         List(landmarkData) { landmark in
-            LandmarkRow(landmark: landmark)
-            
+                        NavigationLink(destination: LandmarkDetail()) { // Con esto configuramos la navegación entre LandmarkList -> LandmarkDetail
+                            LandmarkRow(landmark: landmark)
+                        }
+                    }
+                    .navigationBarTitle(Text("Landmarks"))
+                }
+            }
         }
-    }
-}
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
