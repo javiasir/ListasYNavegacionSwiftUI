@@ -10,9 +10,13 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        List {
-            LandmarkRow(landmark: landmarkData[0])
-            LandmarkRow(landmark: landmarkData[1])
+        /*List (landmarkData, id: \.id) { landmark in // Esto crea una linea por cada elemento en el array de landmarkData
+            LandmarkRow(landmark: landmark)
+        }*/
+        // Al poner en Landmark.swift el protocolo "Identifiable", podemos simplificar el código a esto, ya que identifica el id como una propiedad:
+        List(landmarkData) { landmark in
+            LandmarkRow(landmark: landmark)
+            
         }
     }
 }
