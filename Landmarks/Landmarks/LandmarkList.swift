@@ -27,6 +27,15 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkList()
+        //LandmarkList()
+        // Vamos a cambiar la preview, para que la app renderice en los dispositivos que queramos:
+            //.previewDevice(PreviewDevice(rawValue: "iphone SE"))
+        // Esto se puede mejorar con un ForEach
+        ForEach(["iphone SE", "iphone XS Max"], id: \.self) { deviceName in
+            LandmarkList()
+            .previewDevice(PreviewDevice(rawValue: deviceName))
+            .previewDisplayName(deviceName)
+            
+        }
     }
 }
