@@ -1,5 +1,3 @@
-# ListasYNavegacionSwiftUI
+# Building Lists and Navigation
 
-Prueba crear un Repo nuevo para continuar con el getStarted. 
-
-Apartado BuildingListsAndNavigation.
+Use this project to code along with the [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) tutorial.
